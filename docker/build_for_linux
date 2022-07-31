@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it go-benchmarker /bin/bash -c 'go build -o /application/build/out /application/src/main.go'

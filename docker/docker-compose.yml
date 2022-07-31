@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  go-benchmarker:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/application
+    container_name: go-benchmarker
+    tty: true

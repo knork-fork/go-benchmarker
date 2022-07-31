@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it go-benchmarker /bin/bash -c 'GOOS=windows GOARCH=amd64 go build -o /application/build/out.exe /application/src/main.go'
