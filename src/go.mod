@@ -1,3 +1,3 @@
-module example/user/hello
+module github.com/knork-fork/go-benchmarker
 
 go 1.18
